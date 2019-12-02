@@ -1,0 +1,12 @@
+[package]
+name = "fuzzy-worktime-from-jobcan-on-slack"
+version = "0.1.0"
+authors = ["risou <risou.f@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "*"
+slack_api = "0.21.0"
+chrono = "*"
